@@ -109,14 +109,14 @@
 		<plugins>
 		
 		
-<!--		<plugin>
+		<plugin>
       <groupId>com.google.cloud.tools</groupId>
       <artifactId>jib-maven-plugin</artifactId>
       <version>3.4.0</version>  Check for the latest version 
       
        <configuration>
         <to>
-          <image>quay.io/rearahhal/springproject:latest</image>  Replace with your Quay.io username and desired image name 
+          <image>quay.io/rearahhal/springproject:latest</image> 
         
          <auth>
             <username>rearahhal</username>
@@ -124,7 +124,7 @@
           </auth>
         </to>
       </configuration>
-    </plugin>-->
+    </plugin>
     
     
      <plugin>
